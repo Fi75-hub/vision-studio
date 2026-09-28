@@ -63,8 +63,6 @@ Press `1` for Cutout Carousel or `2` for Motion Guide; the home-screen cards are
 
 The portraits use tuned thresholds for the included images; this is not a general-purpose background-removal service. Motion estimation assumes primarily translational movement. Rotation, scaling, complex backgrounds and weak or ambiguous edges can reduce reliability. Overlap scores indicate alignment quality, not a probability that a motion estimate is correct. The wide analysis view is intended for desktop screens.
 
-The portfolio copy passed syntax, local asset-reference checks and a browser smoke test in headless Microsoft Edge. All eight portraits loaded and produced RGB/HSB comparisons; carousel startup and comparison navigation were checked. All eight image pairs completed the keyboard-driven grayscale, edge, threshold, centroid and direction sequence, matching their expected directions. The refinement detail view was also opened and closed. Manual threshold adjustment and cross-browser behaviour have not been exhaustively tested.
-
 ## Credits
 
 Created by Faizan Ilyas using [p5.js](https://p5js.org/). The bundled p5.js license is retained in `libraries/p5-LICENSE.txt`. The source identifies some images as supplied coursework assets; the collection does not establish their original license or redistribution terms. No blanket license is assigned to the project or image assets.
