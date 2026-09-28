@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Studio - Image Processing Applications</title>
+    <link rel="icon" href="data:,">
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #101416;
+        color: #eef2ef;
+        color-scheme: dark;
+        font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+        text-rendering: optimizeLegibility;
+      }
+
+      main {
+        min-height: 100vh;
+        display: flex;
+        align-items: safe center;
+        justify-content: safe center;
+      }
+
+      canvas {
+        display: block;
+        flex-shrink: 0;
+        max-width: 100%;
+        height: auto !important;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
+      }
+
+      canvas.panorama {
+        max-width: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main></main>
+    <script src="libraries/p5.min.js"></script>
+    <script src="sketch.js"></script>
+    <script src="task1.js"></script>
+    <script src="task2.js"></script>
+  </body>
+</html>
